@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="044ea7bc-4e08-419f-8434-4398b78eefc3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/components/about/07.scss" afterPath="$PROJECT_DIR$/src/css/components/about/07.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/index.jade" afterPath="$PROJECT_DIR$/src/templates/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/components/about/07-custom.jade" afterPath="$PROJECT_DIR$/src/templates/components/about/07-custom.jade" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +43,8 @@
       <file leaf-file-name="07-custom.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/components/about/07-custom.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -490,12 +486,12 @@
       <workItem from="1486639668663" duration="1802000" />
       <workItem from="1486649504874" duration="144000" />
       <workItem from="1487335857498" duration="245000" />
-      <workItem from="1487445000936" duration="7559000" />
+      <workItem from="1487445000936" duration="7669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9999000" />
+    <option name="totallyTimeSpent" value="10109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -844,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/components/about/07-custom.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
