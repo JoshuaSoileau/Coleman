@@ -8,20 +8,23 @@ html
 		//the must have assets
 		link(rel="stylesheet", href="css/main.css")
 		//place your Google Maps API key here:
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfh_GTuZk_GKM0YwY-RQ7OBs6sAMcBGUg", defer)
 		script(src="js/main.js", defer)
 
 		//page title
 		title
-			| Phoenix Bootstrap UI kit
+			| Coleman Builders
 	body
-		main.page_wrapper.page_wrapper--presentation-navbar
-			// == START OF PRESENTATION NAVBAR ==
-			//this component is used for easier navigation and is not a part of the Phoenix tool. Yet, you still are free to use it in your projects if you want.
-			include components/presentations_components/navigation_bar
-			// == END OF PRESENTATION NAVBAR ==
+		main.page_wrapper
 			// ____________________________
 			// == START OF COVER COMPONENTS ==
-			include components/covers/08
+			include components/covers/08-custom
 			// == END OF COVER COMPONENTS ==
+			.works.works--03
+				.container
+					.works__title_box
+						.works__title
+							| Portfolio
+				include components/custom/gallery/01.jade
 	.js-overlay.js-close-navigation.js-close-menu.overlay

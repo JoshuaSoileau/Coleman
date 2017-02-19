@@ -154,3 +154,30 @@
 @import "components/presentations_components/navigation_bar";
 
 // == END OF PHOENIX CSS ==
+
+// CUSTOM
+
+@import "components/custom/gallery/gallery";
+
+.text--white {
+    color: white;
+}
+
+.text--right {
+    text-align: right;
+}
+
+.text--left {
+    text-align: left;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

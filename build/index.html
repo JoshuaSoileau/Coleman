@@ -6,148 +6,22 @@
     <meta name="viewport" content="width=device-width">
     <!--the must have assets-->
     <link rel="stylesheet" href="css/main.css">
-    <!--place your Google Maps API key here:-->
+    <!--place your Google Maps API key here:--><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfh_GTuZk_GKM0YwY-RQ7OBs6sAMcBGUg" defer></script>
     <script src="js/main.js" defer></script>
     <!--page title-->
-    <title>Phoenix Bootstrap UI kit</title>
+    <title>Coleman Builders</title>
   </head>
   <body>
-    <main class="page_wrapper page_wrapper--presentation-navbar">
-      <!-- == START OF PRESENTATION NAVBAR ==-->
-      <!--this component is used for easier navigation and is not a part of the Phoenix tool. Yet, you still are free to use it in your projects if you want.-->
-      <nav class="navigation_bar">
-        <div class="container navigation_bar__toggler_box">
-          <button type="button" class="header__burger_button js-open-navigation-links"></button>
-        </div>
-        <div class="container navigation_bar__links_box js-navigation-links">
-          <div class="row">
-            <div class="col-xs-12">
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="cover--01" class="navigation_bar__link js-navigation-link">cover 01</a></li>
-                <li class="navigation_bar__item"><a href="cover--02" class="navigation_bar__link js-navigation-link">cover 02</a></li>
-                <li class="navigation_bar__item"><a href="cover--03" class="navigation_bar__link js-navigation-link">cover 03</a></li>
-                <li class="navigation_bar__item"><a href="cover--04" class="navigation_bar__link js-navigation-link">cover 04</a></li>
-                <li class="navigation_bar__item"><a href="cover--05" class="navigation_bar__link js-navigation-link">cover 05</a></li>
-                <li class="navigation_bar__item"><a href="cover--06" class="navigation_bar__link js-navigation-link">cover 06</a></li>
-                <li class="navigation_bar__item"><a href="cover--07" class="navigation_bar__link js-navigation-link">cover 07</a></li>
-                <li class="navigation_bar__item"><a href="cover--08" class="navigation_bar__link js-navigation-link">cover 08</a></li>
-                <li class="navigation_bar__item"><a href="cover--09" class="navigation_bar__link js-navigation-link">cover 09</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="cover--10" class="navigation_bar__link js-navigation-link">cover 10</a></li>
-                <li class="navigation_bar__item"><a href="partners--01" class="navigation_bar__link js-navigation-link">partners 01</a></li>
-                <li class="navigation_bar__item"><a href="partners--02" class="navigation_bar__link js-navigation-link">partners 02</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="partners--03" class="navigation_bar__link js-navigation-link">partners 03</a></li>
-                <li class="navigation_bar__item"><a href="counter--01" class="navigation_bar__link js-navigation-link">counter 01</a></li>
-                <li class="navigation_bar__item"><a href="counter--02" class="navigation_bar__link js-navigation-link">counter 02</a></li>
-                <li class="navigation_bar__item"><a href="counter--03" class="navigation_bar__link js-navigation-link">counter 03</a></li>
-              </ul>
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="cover--11" class="navigation_bar__link js-navigation-link">cover 11</a></li>
-                <li class="navigation_bar__item"><a href="cover--12" class="navigation_bar__link js-navigation-link">cover 12</a></li>
-                <li class="navigation_bar__item"><a href="cover--13" class="navigation_bar__link js-navigation-link">cover 13</a></li>
-                <li class="navigation_bar__item"><a href="cover--14" class="navigation_bar__link js-navigation-link">cover 14</a></li>
-                <li class="navigation_bar__item"><a href="cover--15" class="navigation_bar__link js-navigation-link">cover 15</a></li>
-                <li class="navigation_bar__item"><a href="cover--16" class="navigation_bar__link js-navigation-link">cover 16</a></li>
-                <li class="navigation_bar__item"><a href="cover--17" class="navigation_bar__link js-navigation-link">cover 17</a></li>
-                <li class="navigation_bar__item"><a href="cover--18" class="navigation_bar__link js-navigation-link">cover 18</a></li>
-                <li class="navigation_bar__item"><a href="cover--19" class="navigation_bar__link js-navigation-link">cover 19</a></li>
-                <li class="navigation_bar__item"><a href="cover--20" class="navigation_bar__link js-navigation-link">cover 20</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="cover--21" class="navigation_bar__link js-navigation-link">cover 21</a></li>
-                <li class="navigation_bar__item"><a href="contents--01" class="navigation_bar__link js-navigation-link">contents 01</a></li>
-                <li class="navigation_bar__item"><a href="contents--02" class="navigation_bar__link js-navigation-link">contents 02</a></li>
-                <li class="navigation_bar__item"><a href="contents--03" class="navigation_bar__link js-navigation-link">contents 03</a></li>
-                <li class="navigation_bar__item"><a href="contents--04" class="navigation_bar__link js-navigation-link">contents 04</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="contents--05" class="navigation_bar__link js-navigation-link">contents 05</a></li>
-              </ul>
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="call_to_action--01" class="navigation_bar__link js-navigation-link">call_to_action 01</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--02" class="navigation_bar__link js-navigation-link">call_to_action 02</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--03" class="navigation_bar__link js-navigation-link">call_to_action 03</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--04" class="navigation_bar__link js-navigation-link">call_to_action 04</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--05" class="navigation_bar__link js-navigation-link">call_to_action 05</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--06" class="navigation_bar__link js-navigation-link">call_to_action 06</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--07" class="navigation_bar__link js-navigation-link">call_to_action 07</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--08" class="navigation_bar__link js-navigation-link">call_to_action 08</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--09" class="navigation_bar__link js-navigation-link">call_to_action 09</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--10" class="navigation_bar__link js-navigation-link">call_to_action 10</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--11" class="navigation_bar__link js-navigation-link">call_to_action 11</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--12" class="navigation_bar__link js-navigation-link">call_to_action 12</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--13" class="navigation_bar__link js-navigation-link">call_to_action 13</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--14" class="navigation_bar__link js-navigation-link">call_to_action 14</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--15" class="navigation_bar__link js-navigation-link">call_to_action 15</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--16" class="navigation_bar__link js-navigation-link">call_to_action 16</a></li>
-                <li class="navigation_bar__item"><a href="call_to_action--17" class="navigation_bar__link js-navigation-link">call_to_action 17</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="call_to_action--18" class="navigation_bar__link js-navigation-link">call_to_action 18</a></li>
-              </ul>
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="features--01" class="navigation_bar__link js-navigation-link">features 01</a></li>
-                <li class="navigation_bar__item"><a href="features--02" class="navigation_bar__link js-navigation-link">features 02</a></li>
-                <li class="navigation_bar__item"><a href="features--03" class="navigation_bar__link js-navigation-link">features 03</a></li>
-                <li class="navigation_bar__item"><a href="features--04" class="navigation_bar__link js-navigation-link">features 04</a></li>
-                <li class="navigation_bar__item"><a href="features--05" class="navigation_bar__link js-navigation-link">features 05</a></li>
-                <li class="navigation_bar__item"><a href="features--06" class="navigation_bar__link js-navigation-link">features 06</a></li>
-                <li class="navigation_bar__item"><a href="features--07" class="navigation_bar__link js-navigation-link">features 07</a></li>
-                <li class="navigation_bar__item"><a href="features--08" class="navigation_bar__link js-navigation-link">features 08</a></li>
-                <li class="navigation_bar__item"><a href="features--09" class="navigation_bar__link js-navigation-link">features 09</a></li>
-                <li class="navigation_bar__item"><a href="features--10" class="navigation_bar__link js-navigation-link">features 10</a></li>
-                <li class="navigation_bar__item"><a href="features--11" class="navigation_bar__link js-navigation-link">features 11</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="features--12" class="navigation_bar__link js-navigation-link">features 12</a></li>
-                <li class="navigation_bar__item"><a href="team--01" class="navigation_bar__link js-navigation-link">team 01</a></li>
-                <li class="navigation_bar__item"><a href="team--02" class="navigation_bar__link js-navigation-link">team 02</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="team--03" class="navigation_bar__link js-navigation-link">team 03</a></li>
-              </ul>
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="testimonials--01" class="navigation_bar__link js-navigation-link">testimonials 01</a></li>
-                <li class="navigation_bar__item"><a href="testimonials--02" class="navigation_bar__link js-navigation-link">testimonials 02</a></li>
-                <li class="navigation_bar__item"><a href="testimonials--03" class="navigation_bar__link js-navigation-link">testimonials 03</a></li>
-                <li class="navigation_bar__item"><a href="testimonials--04" class="navigation_bar__link js-navigation-link">testimonials 04</a></li>
-                <li class="navigation_bar__item"><a href="testimonials--05" class="navigation_bar__link js-navigation-link">testimonials 05</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="testimonials--06" class="navigation_bar__link js-navigation-link">testimonials 06</a></li>
-                <li class="navigation_bar__item"><a href="works--01" class="navigation_bar__link js-navigation-link">works 01</a></li>
-                <li class="navigation_bar__item"><a href="works--02" class="navigation_bar__link js-navigation-link">works 02</a></li>
-                <li class="navigation_bar__item"><a href="works--03" class="navigation_bar__link js-navigation-link">works 03</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="works--04" class="navigation_bar__link js-navigation-link">works 04</a></li>
-                <li class="navigation_bar__item"><a href="prices--01" class="navigation_bar__link js-navigation-link">prices 01</a></li>
-                <li class="navigation_bar__item"><a href="prices--02" class="navigation_bar__link js-navigation-link">prices 02</a></li>
-                <li class="navigation_bar__item"><a href="prices--03" class="navigation_bar__link js-navigation-link">prices 03</a></li>
-                <li class="navigation_bar__item"><a href="prices--04" class="navigation_bar__link js-navigation-link">prices 04</a></li>
-              </ul>
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="about--01" class="navigation_bar__link js-navigation-link">about 01</a></li>
-                <li class="navigation_bar__item"><a href="about--02" class="navigation_bar__link js-navigation-link">about 02</a></li>
-                <li class="navigation_bar__item"><a href="about--03" class="navigation_bar__link js-navigation-link">about 03</a></li>
-                <li class="navigation_bar__item"><a href="about--04" class="navigation_bar__link js-navigation-link">about 04</a></li>
-                <li class="navigation_bar__item"><a href="about--05" class="navigation_bar__link js-navigation-link">about 05</a></li>
-                <li class="navigation_bar__item"><a href="about--06" class="navigation_bar__link js-navigation-link">about 06</a></li>
-                <li class="navigation_bar__item"><a href="about--07" class="navigation_bar__link js-navigation-link">about 07</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="about--08" class="navigation_bar__link js-navigation-link">about 08</a></li>
-                <li class="navigation_bar__item"><a href="footer--01" class="navigation_bar__link js-navigation-link">footer 01</a></li>
-                <li class="navigation_bar__item"><a href="footer--02" class="navigation_bar__link js-navigation-link">footer 02</a></li>
-                <li class="navigation_bar__item"><a href="footer--03" class="navigation_bar__link js-navigation-link">footer 03</a></li>
-                <li class="navigation_bar__item"><a href="footer--04" class="navigation_bar__link js-navigation-link">footer 04</a></li>
-                <li class="navigation_bar__item"><a href="footer--05" class="navigation_bar__link js-navigation-link">footer 05</a></li>
-                <li class="navigation_bar__item"><a href="footer--06" class="navigation_bar__link js-navigation-link">footer 06</a></li>
-                <li class="navigation_bar__item navigation_bar__item--last"><a href="footer--07" class="navigation_bar__link js-navigation-link">footer 07</a></li>
-              </ul>
-              <ul class="navigation_bar__items_list">
-                <li class="navigation_bar__item"><a href="contacts--01" class="navigation_bar__link js-navigation-link">contacts 01</a></li>
-                <li class="navigation_bar__item"><a href="contacts--02" class="navigation_bar__link js-navigation-link">contacts 02</a></li>
-                <li class="navigation_bar__item"><a href="contacts--03" class="navigation_bar__link js-navigation-link">contacts 03</a></li>
-                <li class="navigation_bar__item"><a href="contacts--04" class="navigation_bar__link js-navigation-link">contacts 04</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- == END OF PRESENTATION NAVBAR ==-->
+    <main class="page_wrapper">
       <!-- ____________________________-->
       <!-- == START OF COVER COMPONENTS ==-->
       <!-- == START OF COVER 08 ==-->
-      <div style="background-image: url(img/bg/bg--blue-mountains.jpg)" class="cover cover--08 js-cover">
+      <div style="background-image: url(images/hero.jpg)" id="home" class="hero cover cover--08 js-cover">
         <!-- == START OF HEADER 06 ==-->
         <nav class="header header--06">
           <div class="container header__container">
-            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Coleman Builder" class="header__logo_img"></a><a href="#" title="Home" class="header__logo_text">Coleman Builders</a></div>
+            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="images/cb-logo.svg" alt="Coleman Builder" class="header__logo_img"></a></div>
             <div class="header__right_box">
               <ul class="header__menu_list header__item--desktop">
                 <li class="header__menu_item"><a href="#home" class="header__menu_link header__menu_link--white">Home</a></li>
@@ -160,15 +34,83 @@
           </div>
         </nav>
         <!-- == END OF HEADER 06 ==-->
-        <div class="container">
-          <div class="cover__content_box cover__content_box--08">
-            <h2 class="cover__title cover__title--08"><span class="cover__title_text cover__title_text--08">Coleman Builders</span></h2>
-            <div class="cover__description_box--08"><span class="cover__description_text--08">Our mission is to create homes of timeless beauty reflective of the legacy and tradition of the Lowcountry. <br><br>With careful attention to detail, quality craftsmanship, and past experiences, we deliver homes that are built to ensure enduring value for each customer. <br><br> By creating a trusting relationship and a memorable building experience, we work to keep clients for a lifetime.</span></div>
+        <div class="container cover__container--02">
+          <div class="cover__text_box--02">
+            <h2 class="cover__title--02"><span class="cover__title_text--02 text--white">Coleman Builders</span></h2>
+            <div class="cover__description_box--02"><span class="cover__description_text--02 text--white fw-100">With careful attention to detail, quality craftsmanship, and past experiences, we deliver homes that are built to ensure enduring value for each customer.<br><br>By creating a trusting relationship and a memorable building experience, we work to keep clients for a lifetime.</span></div>
           </div>
         </div>
       </div>
       <!-- == END OF COVER 08 ==-->
       <!-- == END OF COVER COMPONENTS ==-->
+      <div class="works works--03">
+        <div class="container">
+          <div class="works__title_box">
+            <div class="works__title">Portfolio</div>
+          </div>
+        </div>
+        <!-- == START OF HOUSE 01 ==-->
+        <div class="row no-gutters gallery-custom">
+          <div class="col-md-6 flex-unordered">
+            <div style="background-image: url(images/1/pic1.jpg)" class="img"></div>
+          </div>
+          <div class="col-md-6 flex-unordered four-four">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div style="background-image: url(images/1/pic2.jpg)" class="img"></div>
+              </div>
+              <div class="col-md-6">
+                <div style="background-image: url(images/1/pic3.jpg)" class="img"></div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <div style="background-image: url(images/1/pic4.jpg)" class="img"></div>
+              </div>
+              <div class="col-md-6">
+                <div style="background-image: url(images/1/pic5.jpg)" class="img"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="works works--03 gallery-custom">
+          <div class="position-relative">
+            <div class="testimonials__arrows_box testimonials__arrows_box--05">
+              <button type="button" class="testimonials__arrow testimonials__arrow--left testimonials__arrow--05 testimonials__arrow--05--left js-testimonials-prev-arrow--05"></button>
+              <button type="button" class="testimonials__arrow testimonials__arrow--right testimonials__arrow--05 testimonials__arrow--05--right js-testimonials-next-arrow--05"></button>
+            </div>
+            <div data-slick="{&quot;slidesToShow&quot;: 8, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: false, &quot;cssEase&quot;: &quot;linear&quot;, &quot;prevArrow&quot; : &quot;.js-testimonials-prev-arrow--05&quot;, &quot;nextArrow&quot;: &quot;.js-testimonials-next-arrow--05&quot;, &quot;centerMode&quot;: true, &quot;infinite&quot;: true, &quot;focusOnSelect&quot;: true, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 900, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2}}, {&quot;breakpoint&quot;: 650, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1}}]}" class="thumbnails works__slider js-slider">
+              <!--please keep the data-lightbox attribute value the same across all the items-->
+              <div class="works__item works__item--03"><a href="images/1/pic1.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic1.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic2.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic2.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic3.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic3.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic4.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic4.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic5.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic5.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic6.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic6.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic7.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic7.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic8.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic8.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic9.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic9.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic10.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic10.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic11.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic11.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic12.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic12.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic13.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic13.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic14.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic14.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic15.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic15.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic16.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic16.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic17.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic17.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic18.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic18.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic19.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic19.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic20.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic20.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic21.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic21.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic22.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic22.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic23.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic23.jpg)" class="img works__item__link"></a></div>
+              <div class="works__item works__item--03"><a href="images/1/pic24.jpg" data-lightbox="works-1" style="background-image: url(images/1/pic24.jpg)" class="img works__item__link"></a></div>
+            </div>
+          </div>
+          <p class="small text--right">^ Click Above for Zoom ^</p>
+        </div>
+        <!-- == END OF HOUSE 01 ==-->
+      </div>
     </main>
   </body>
   <div class="js-overlay js-close-navigation js-close-menu overlay"></div>

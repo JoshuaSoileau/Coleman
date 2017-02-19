@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="67px" viewBox="0 0 158 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cb-logo" transform="translate(-65.000000, -6.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(63.000000, 0.000000)">
+                <path d="M83.904,6 C65.178,6 50,21.049 50,39.609 C50,55.488 61.112,68.786 76.047,72.301 L76.147,70.828 L77.164,58.629 L79.49,58.533 L79.914,38.045 L78.586,37.797 L77.429,29.436 C77.429,29.436 69.032,27.25 60.769,38.127 C60.769,38.127 59.624,39.961 58.742,39.061 C58.742,39.061 57.588,38.335 59.957,35.003 C59.957,35.003 62.703,29.765 67.942,24.153 C67.942,24.153 74.425,17.427 86.774,18.36 C86.774,18.36 90.463,26.718 97.484,20.122 L104.204,20.326 C104.204,20.326 106.368,26.112 103.9,32.597 L97.332,32.971 C97.332,32.971 94.715,28.518 88.907,32.607 L87.3,37.841 L86.397,38.082 L85.979,58.669 L88.111,58.783 L88.299,68.198 L88.687,72.878 C105.144,70.573 117.805,56.56 117.805,39.609 C117.805,21.049 102.627,6 83.904,6" id="Fill-31"></path>
+                <text id="C" font-family="LucidaGrande, Lucida Grande" font-size="50.0568" font-weight="normal">
+                    <tspan x="0" y="48">C</tspan>
+                </text>
+                <text id="B" font-family="LucidaGrande, Lucida Grande" font-size="50.0568" font-weight="normal">
+                    <tspan x="133" y="48">B</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -114,7 +114,7 @@
 	}
 }
 .cover__description_text--02{
-	@include font_loader($playfair, 4, 'n');
+	@include font_loader($playfair, 1, 'n');
 
 	color: $steel;
 	font-size: 16px;
