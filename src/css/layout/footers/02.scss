@@ -11,6 +11,7 @@
 
 	background-color: white;
 	border-bottom: 1px solid rgba($cloud, 0.12);
+	border-top: 1px solid rgba($cloud, 0.12);
 
 	@media (#{$max_tablets}){
 		padding: 30px 0;
