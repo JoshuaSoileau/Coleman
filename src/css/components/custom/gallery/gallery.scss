@@ -65,6 +65,7 @@
         height: auto;
         bottom: 0;
         z-index: 20;
+        cursor: pointer;
         &:before {
             content: "";
             display: block;

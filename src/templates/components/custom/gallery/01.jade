@@ -1,7 +1,5 @@
 // == START OF HOUSE 01 ==
 .row.no-gutters.gallery-custom.desktop-only
-    .col-md-6.flex-unordered
-        .img(style="background-image: url(images/1/pic1.jpg)")
     .col-md-6.flex-unordered.four-four
         .row.no-gutters
             .col-md-6
@@ -13,12 +11,14 @@
                 .img(style="background-image: url(images/1/pic4.jpg)")
             .col-md-6
                 .img(style="background-image: url(images/1/pic5.jpg)")
+    .col-md-6.flex-unordered
+        .img(style="background-image: url(images/1/pic1.jpg)")
 .works.works--03.gallery-custom
     .position-relative
         .testimonials__arrows_box.testimonials__arrows_box--05
             button.testimonials__arrow.testimonials__arrow--left.testimonials__arrow--05.testimonials__arrow--05--left.js-testimonials-prev-arrow--05(type="button")
             button.testimonials__arrow.testimonials__arrow--right.testimonials__arrow--05.testimonials__arrow--05--right.js-testimonials-next-arrow--05(type="button")
-        .thumbnails.works__slider.js-slider(data-slick='{"slidesToShow": 8, "slidesToScroll": 1, "fade": false, "cssEase": "linear", "prevArrow" : ".js-testimonials-prev-arrow--05", "nextArrow": ".js-testimonials-next-arrow--05", "centerMode": true, "infinite": true, "focusOnSelect": true, "responsive": [{"breakpoint": 900, "settings": {"slidesToShow": 2}}, {"breakpoint": 650, "settings": {"slidesToShow": 1}}]}')
+        .thumbnails.works__slider.js-slider(data-slick='{"slidesToShow": 8, "slidesToScroll": 4, "fade": false, "cssEase": "linear", "prevArrow" : ".js-testimonials-prev-arrow--05", "nextArrow": ".js-testimonials-next-arrow--05", "centerMode": true, "infinite": true, "focusOnSelect": true, "responsive": [{"breakpoint": 900, "settings": {"slidesToShow": 2}}, {"breakpoint": 650, "settings": {"slidesToShow": 1}}]}')
             //please keep the data-lightbox attribute value the same across all the items
             - for (var picNum = 1, houseNum = 1; picNum < 25; picNum++)
                 .works__item.works__item--03
