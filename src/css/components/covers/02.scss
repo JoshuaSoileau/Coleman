@@ -55,8 +55,6 @@
 		top: 50%;
 	}
 	@media (#{$max_phones}){
-		position: static;
-		transform: none;
 	}
 }
 .cover__link--02{
