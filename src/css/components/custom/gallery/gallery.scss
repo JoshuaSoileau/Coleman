@@ -42,16 +42,33 @@
     }
 }
 
-.works {
-    position: relative;
-    max-height: 1000px;
-    overflow: hidden;
+.gallery-start {
+    cursor: pointer;
+}
+
+.house {
+    margin: 0 0 110px;
+    padding: 0 10px;
     @media screen and (max-width: 720px) {
-        max-height: 500px;
-        &.height-auto {
-            max-height: initial;
+        margin-bottom: 30px;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+    > .works {
+        display: none;
+    }
+    h6 {
+        font-family: Montserrat,Helvetica,Arial,sans-serif;
+        margin-top: 30px;
+        @media screen and (max-width: 720px) {
+            margin-top: 20px;
         }
     }
+}
+
+.works {
+    position: relative;
     &.height-auto {
         max-height: initial;
         .see-more:before {
